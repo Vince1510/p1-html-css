@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta viewport="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Form</title>
+</head>
+
+<body>
+  <form action="result.html" method="GET">
+    <div>
+      <label for="firstname">Voornaam</label>
+      <input type="text" firstname="firstname" pattern="[^0-9]" id="firstname" required />
+    </div>
+
+    <div>
+      <label for="surname">Achternaam</label>
+      <input type="text" name="surname" id="surname" />
+    </div>
+    <div>
+      <label for="gender">Geslacht</label>
+      <div>
+        <label for="female">Vrouw</label>
+        <input type="radio" name="gender" id="female" value="female">
+        <label for="male">Man</label>
+        <input type="radio" name="gender" id="male" value="male">
+      </div>
+    </div>
+
+    <label for="address">Adres</label>
+    <div>
+      <label for="streetname">Straatnaam</label>
+    </div>
+    <input type="text" name="streetname" id="streetname">
+    <div>
+      <label for="homenumber">Huisnummer</label>
+    </div>
+    <div>
+      <input type="postcode">
+      <div>
+        <label for="postcode">Postcode</label>
+      </div>
+      <input type="text" name="city" id="stad">
+      <div>
+        <label for="City">Stad</label>
+      </div>
+      <input type="text" name="city" id="stad">
+      <div>
+        <label for="BSNnumber">BSN-nummer</label>
+        <input type="datum" id="datum" maxlength="9">
+      </div>
+      <input type="text" name="BSN-nummer" id="BSN-nummer" minlength="9" maxlength="9">
+      <div class="formbox"></div>
+      <div>
+        <label for="Vakantieland">Vakantieland</label>
+      </div>
+      <select name="list" id="list">
+        <option value="Frankrijk">Frankrijk</option>
+        <option value="Duitsland">Duitsland</option>
+        <option value="Spanje">Spanje</option>
+      </select>
+    </div>
+    <div>
+      <label for="datum">Datum van vertrek</label>
+      <input type="date" name="datum" id="datum" min="2022-09-20">
+    </div>
+    <div>
+      <label for="datum">Datum van terugkomst</label>
+      <input type="date" name="datum" id="datum">
+    </div>
+    <div>
+      <label for="reisgenoten">Aantal reisgenoten</label>
+      <select name="list" id="list">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <select name="list" id="list">
+
+        </select>
+    </div>
+
+    <div>
+      <button type="submit">Boek nu!</button>
+    </div>
+    <div><label for="postcode">Email adres</label></div>
+    <input type="emailadres">
+    <div>
+      <label for="password">Wachtwoord</label>
+    </div>
+    <div>
+      <input type="password" id="password" name="Wachtwoord">
+    </div>
+
+
+  </form>
+</body>
+
+</html>
