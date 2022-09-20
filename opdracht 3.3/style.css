@@ -1,0 +1,29 @@
+table {
+  border-collapse: collapse;
+  border-radius: 30px;
+  width: 100%;
+}
+th {
+  border: 1px solid rgba(0, 0, 0, 0.867);
+  background-color: #eda232;
+}
+th.team {
+  background-color: #eda232;
+  border: 1px solid rgba(0, 0, 0, 0.867);
+  text-align: left;
+}
+td {
+  border: 1px solid rgba(0, 0, 0, 0.867);
+  text-align: center;
+}
+td.team {
+  border: 1px solid rgba(0, 0, 0, 0.867);
+  text-align: left;
+}
+tr:nth-child(even) {
+  background-color: #dddd;
+}
+th,
+td {
+  padding: 10px;
+}
