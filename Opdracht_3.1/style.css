@@ -2,17 +2,22 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  color: whitesmoke;
+  font-family: 'Goldman', cursive;
 }
 html {
   font-size: 62.5%;
 }
-body {
+.foto {
   font-family: "Goldman", cursive;
 }
-
+section{
+  height: 100vh;
+  width: 100vw;
+}
 nav {
   display: flex;
-  width: 100%;
+  width: 100vw;
   padding: 2rem;
   min-height: 10vh;
   align-items: center;
@@ -37,3 +42,19 @@ nav a {
 nav img {
   width: 5vw;
 }
+body {
+  background-image: url(Hacker.jpeg);
+  height: 130vh;
+  width: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.text{ 
+  font-size:10rem ;
+}
+title{
+  font-weight: bold;
+}
+
