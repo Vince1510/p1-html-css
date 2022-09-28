@@ -3,21 +3,34 @@
   padding: 0;
   box-sizing: border-box;
   color: whitesmoke;
-  font-family: 'Goldman', cursive;
+  font-family: "Goldman", cursive;
 }
+@import url("https://fonts.googleapis.com/css2?family=Goldman&display=swap");
 html {
   font-size: 62.5%;
 }
-.foto {
+
+h1 {
+  text-align: center;
+  font-size: 7rem;
+}
+h2 {
+  text-align: center;
+  font-size: 5rem;
+}
+p {
+  font-size: 2rem;
+  
+}
+
+body {
   font-family: "Goldman", cursive;
+  background-color: black;
 }
-section{
-  height: 100vh;
-  width: 100vw;
-}
+
 nav {
   display: flex;
-  width: 100vw;
+  width: 100%;
   padding: 2rem;
   min-height: 10vh;
   align-items: center;
@@ -42,19 +55,35 @@ nav a {
 nav img {
   width: 5vw;
 }
-body {
+
+.container {
   background-image: url(Hacker.jpeg);
-  height: 130vh;
-  width: 100vh;
+  height: 100vh;
+  width: 100vw;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 
-.text{ 
-  font-size:10rem ;
+section {
+  width: 100vw;
+  height: 100vh;
 }
-title{
-  font-weight: bold;
+.footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 3vw;
+  background-color: #00a8c7;
+  color: white;
+  text-align: center;
+  position: fixed;
 }
-
+style .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+img{
+  float: right;
+}
