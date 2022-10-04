@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.flex-container{
+    display: flex;
+    flex-direction:row-reverse;
+}
+
+.item-1{
+    width: 200px;
+    height: 200px;
+    background-color:blue;
+    margin: 10px;
+    color: black;
+}
+.item-2{
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    margin: 10px;
+    color: black;
+}
+.item-3{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    margin: 10px;
+    color: black;
+}
+.item-4{
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    margin: 10px;
+    color: black;
+}

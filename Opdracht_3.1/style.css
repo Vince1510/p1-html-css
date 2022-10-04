@@ -74,6 +74,7 @@ nav {
   margin: auto;
   background: #00a8c7;
   justify-content: space-between;
+  position: fixed;
 }
 nav ul {
   display: flex;
@@ -127,4 +128,7 @@ style .container {
 }
 img{
   float: right;
+}
+.SQL{
+  float: left;
 }
