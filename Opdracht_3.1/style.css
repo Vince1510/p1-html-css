@@ -37,7 +37,8 @@ li a {
   text-align: left;
 }
 .dropdown:hover .dropdown-content {
-  display:block;
+  display: flex;
+  flex-direction: column
 }
 
 
@@ -91,7 +92,7 @@ nav a {
   transition: all 0.4s linear;
 }
 nav ul li :hover{
-  color: #E9E9E9;
+  color: #080728;
   box-shadow: none;
 }
 nav img {
