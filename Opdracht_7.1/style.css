@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    background-color: rgb(236, 41, 41);
+    height:10vh;
+}
+.Logo {
+  color: white;
+  text-align: corner;
+  line-height: 50px;
+  font-size: 30px;
+  padding: 2vw;
+}
+.titel2 {
+  background-color: rgb(234, 192, 25);
+  width: 85vw;
+  padding: 7vw;
+}
+.titel3 {
+    background-color: rgb(255, 162, 0);
+    width: 85vw;
+    padding: 7vw;
+  }
+  .titel4 {
+    background-color: rgb(32, 182, 21);
+    width: 85vw;
+    padding: 7vw;
+  }
+  section{
+    height: 30vh;
+  }
