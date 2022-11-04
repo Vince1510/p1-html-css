@@ -15,19 +15,18 @@
 }
 .titel2 {
   background-color: rgb(234, 192, 25);
-  width: 85vw;
-  padding: 7vw;
 }
 .titel3 {
     background-color: rgb(255, 162, 0);
-    width: 85vw;
-    padding: 7vw;
   }
   .titel4 {
     background-color: rgb(32, 182, 21);
-    width: 85vw;
-    padding: 7vw;
   }
   section{
     height: 30vh;
+    width: 100vw;
+  }
+
+  div {
+    padding: 2rem;
   }
