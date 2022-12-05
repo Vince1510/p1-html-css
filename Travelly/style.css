@@ -1,0 +1,89 @@
+* {
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 62,5;
+}
+li {
+  display: inline;
+  margin: 5rem;
+}
+li a {
+  color: white;
+}
+h1 {
+  color: white;
+  margin: 5rem;
+  font-family: fantasy;
+}
+.titel1 {
+  color: white;
+  display: flex;
+  margin: 5rem;
+  font-size: 50px;
+}
+
+p {
+  color: white;
+  display: flex;
+  margin: 2rem;
+  font-size: 30px;
+}
+.button {
+    background-color: #4c6e97;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    display: flex;
+
+  }
+.page1{
+    background-image: url(landing-page.jpg);
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+.page2{
+    color: white;
+    display: flex;
+    font-size: 40px;
+    margin: 5rem;
+    text-decoration: underline;
+}
+.text-page2{
+    color: white;
+    display: flex;
+    text-align: start;
+    margin: 5rem;
+    text-decoration: none;
+}
+
+nav {
+  width: 100vw;
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #131c27;
+}
+.page2{
+    background-image: url(new-york-page.png);
+    filter: brightness(50%);
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    justify-content: left;
+}
